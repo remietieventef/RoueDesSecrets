@@ -26,7 +26,8 @@
             font-size: 2em;
             font-weight: bold;
             background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-            -webkit-background-clip: text;
+            background-clip: text; /* Version standard */
+            -webkit-background-clip: text; /* Version spécifique à WebKit */
             color: transparent;
             text-align: center;
             margin: 20px;
